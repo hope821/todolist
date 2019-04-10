@@ -1,0 +1,61 @@
+.tit_todo{
+    font-size:20px;
+    text-align: center;
+}
+.section_form{
+    margin-top:20px;
+}
+.section_todos{
+    margin-top:20px;
+    border-top:2px solid #aeaeae;
+}
+.box_tf{
+    position: relative;
+    padding:10px 60px 10px 10px;
+    border:1px solid #ddd;
+    .tf_g{
+        display:block;
+        width:100%;
+        border:0 none;
+    }
+    .btn_create{
+        position: absolute;
+        top:0;
+        right:0;
+        width:50px;
+        height:44px;
+        text-align:center;
+        background-color:#ffcd00;
+    }
+}
+.list_todos{
+    li{
+        position: relative;
+        border-top:1px solid #ddd;
+        &:first-child{
+            border-top:0 none;
+        }
+        &:hover{
+            background-color:#efefef;
+        }
+    }
+    .btn_remove{
+        position: absolute;
+        top:0;
+        left:0;
+        width:30px;
+        height:100%;
+    }
+    .txt_todo{
+        display:block;
+        padding:10px 40px;
+    }
+    .ico_check{
+        position: absolute;
+        top:12px;
+        right:10px;
+    }
+    .checked{
+        text-decoration: line-through;
+    }
+}
